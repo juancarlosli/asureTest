@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '09a26a03-314c-4475-a309-c3e6c13aa4f5'
+  dockerRegistryServiceConnection: '553c798f-4ca9-43d4-b667-b1ac60c36007'
   imageRepository: 'stvansolanobackendservicescoursecenfotec'
-  containerRegistry: 'adventureworks.azurecr.io'
+  containerRegistry: 'juancarlosli.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/material/Docker/adventure_works/Dockerfile'
   tag: '$(Build.BuildId)'
   
